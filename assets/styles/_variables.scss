@@ -1,0 +1,33 @@
+/* Color Theme Swatches in Hex */
+$dark-blue: #043E57;
+$medium-blue: #25667D;
+$medium-beige: #E8DBCA;
+$light-beige: #F5E7D5;
+$dark-beige: #CFC3B4;
+
+// main typography colors
+$dark-text: $dark-blue;
+$dark-links: $medium-blue;
+$light-text: $medium-beige;
+$light-links: $light-beige;
+
+// HTML block elements
+article, aside, div, footer, header, main, nav, section {
+    &.dark {
+        background-color: $dark-blue;
+        color: $light-beige;
+        a {
+            color: $medium-beige;
+        }
+    }
+
+    &.light {
+        background-color: $light-beige;
+        color: $dark-blue;
+        a {
+            color: $medium-blue;
+        }
+    }
+}
+
+

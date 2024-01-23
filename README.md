@@ -1,2 +1,7 @@
 # 2023-portfolio
-Full Stack Web Developer Portfolio
+Front End Software Engineer Portfolio
+
+Dev Dependencies Used:
+- Sass
+- Tailwind CSS
+- React Scroll Parallax
